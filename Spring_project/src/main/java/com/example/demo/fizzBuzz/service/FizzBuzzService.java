@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class FizzBuzzService {
-	public List<String> fizzBuss() {
+	public List<String> fizzBuzz() {
 		List<String> numbers = new ArrayList<String>();
 		for (int i = 0; i <= 100; i++) {
 			if (i % 3 == 0 && i % 5 == 0) {
